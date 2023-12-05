@@ -1,0 +1,121 @@
+:root {
+    --theme-color: white;
+    --color1: #487353;
+    --color2: #4B93BF;
+    --color3: #425948;
+    --color4: #9b9b9b;
+    --colorFondo: #768f7d;
+    --text-color-inverse: white;
+    --text-color: black;
+    --navbar-shadow-color: #e5e5e5;
+    --menu-mobile-background-color: #425948;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color)
+}
+
+.home{
+    width: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.onda{
+    min-height: 100vh;
+    width: 100%;
+    background: var(--colorFondo);
+    left: 0;
+    top: 10;
+    width: 100%;
+    position: fixed;
+}
+
+.logo{
+    width: 30vw; /* 50% del ancho de la ventana */
+    height: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+svg{
+    position: absolute;
+    bottom: 0;
+    left:0
+}
+
+.componentes{
+    min-height: 100vh;
+    width: 100%;
+    background: var(--color3);
+    left: 0;
+    top: 10;
+    width: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    height: 100vh;  
+  
+    
+}
+  
+.card {
+    margin: 20px; 
+    top: 20px; 
+}
+
+.cardTemas {
+    margin: 20px;
+    
+}
+
+.imgPipas {
+    width: 100%;
+}
+
+.iconosServicios {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.iconosInicio {
+    width: 50%;
+    border-radius: 6px;
+}
+
+.nomostar {
+    color: white;
+}
+
+.footer {
+    background-color: var(--colorFondo);
+    text-align: center;
+}
+
+.titulosInicio {
+    color: #333434;
+    size: auto;
+}
+
+.sloganInicio {
+    margin-left: 10%;
+    color: #333434;
+    font-style: italic;
+}
+
+
+  
