@@ -37,10 +37,10 @@ function App() {
                 <img className="cerrar" src={cerrar} alt="" />
               </button>
 
-              <li><Link to="/" className="selected">Inicio</Link></li>
-              <li><Link to="/nosotros">Nosotros</Link></li>
-              <li><Link to="/servicios">Servicos</Link></li>
-              <li><Link to="/reseñas">Reseñas</Link></li>
+              <li><Link to="/" className="link-item">Inicio</Link></li>
+              <li><Link to="/nosotros" className="link-item">Nosotros</Link></li>
+              <li><Link to="/servicios" className="link-item">Servicios</Link></li>
+              <li><Link to="/reseñas" className="link-item">Reseñas</Link></li>
             </ul>
           </nav>
         </header>
