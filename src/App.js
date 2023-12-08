@@ -11,6 +11,8 @@ import Inicio from './Inicio';
 import Nosotros from './Nosotros';
 import Servicios from './Servicios';
 import Reseñas from './Reseñas';
+import Reseña from './Reseña';
+
 
 function App() {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -19,6 +21,18 @@ function App() {
     setMenuOpened(!menuOpened);
   };
 
+  // const express = require('express');
+  // const app = express(); 
+  
+  // app.get('/sw.js', (req, res) => {
+  //   res.setHeader('Content-Type', 'application/javascript');
+  //   res.sendFile(__dirname + '/sw.js');
+  // });
+  
+    
+  // app.listen(3000, () => {
+  //   console.log('Servidor iniciado en el puerto 3000');
+  // });
   return (
     <Router>
       <div>
@@ -49,7 +63,7 @@ function App() {
           <Route path="/" element={<Inicio />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/servicios" element={<Servicios />} />
-          <Route path="/reseñas" element={<Reseñas />} />
+          <Route path="/reseñas" element={<Reseña />} />
         </Routes>
 
         {/* <div className="footer">

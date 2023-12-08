@@ -72,23 +72,19 @@ export default function Servicios() {
             <div class="footer">
                 <div className="footer-container">
                     <div className="footer-item">
-                        <FaMapMarkerAlt className="footer-icon" />
                         <b>Salida a Dolores Hidalgo Km 1, San Miguel de Allende, Gto.</b>
                     </div>
                     <div className="footer-item">
                         <b>Tel. 415 196 8913  Email: lacabanasma@gmail.com</b>
                     </div>
                     <div className="footer-item">
-                        <FaEnvelope className="footer-icon" />
-                        <p></p>
+                        <p>.</p>
                     </div>
                     <div className="footer-item">
-                        <FaPhone className="footer-icon" />
-                        <p>Teléfono: Tu Número de Teléfono</p>
+                        <p>.</p>
                     </div>
                     <div className="footer-item">
-                        <FaPhone className="footer-icon" />
-                        <p>Teléfono: Tu Número de Teléfono</p>
+                        <p>.</p>
                     </div>
                 </div>
             </div>

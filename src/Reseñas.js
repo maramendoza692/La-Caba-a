@@ -139,7 +139,7 @@ const Reseñas = () => {
             Text.oncomplete = () => {
                 db.close();
             }
-        };    
+        };
     };
 
     return (
@@ -187,7 +187,7 @@ const Reseñas = () => {
                             <h5 className="nosotros-title">{row.contenido}</h5>
                             <p className="nosotros-text">Publicado por {row.nombre}</p>
                             <div className="button-container">
-                            <button className="button" onClick={() => deleteResena(row)}>Eliminar</button>
+                                <button className="button" onClick={() => deleteResena(row)}>Eliminar</button>
                             </div>
                         </div>
                     </div>
@@ -197,24 +197,21 @@ const Reseñas = () => {
                 <div class="footer">
                     <div className="footer-container">
                         <div className="footer-item">
-                            <FaMapMarkerAlt className="footer-icon" />
                             <b>Salida a Dolores Hidalgo Km 1, San Miguel de Allende, Gto.</b>
                         </div>
                         <div className="footer-item">
                             <b>Tel. 415 196 8913  Email: lacabanasma@gmail.com</b>
                         </div>
                         <div className="footer-item">
-                            <FaEnvelope className="footer-icon" />
-                            <p></p>
+                            <p>.</p>
                         </div>
                         <div className="footer-item">
-                            <FaPhone className="footer-icon" />
-                            <p>Teléfono: Tu Número de Teléfono</p>
+                            <p>.</p>
                         </div>
                         <div className="footer-item">
-                            <FaPhone className="footer-icon" />
-                            <p>Teléfono: Tu Número de Teléfono</p>
+                            <p>.</p>
                         </div>
+
                     </div>
                 </div>
             </div>
