@@ -1,6 +1,5 @@
 import React from 'react'
 import nosotros from './img/nosotros.png';
-import { FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
 export default function Nosotros() {
     return (
         <div class="componentes">
@@ -61,11 +60,12 @@ export default function Nosotros() {
             <div class="row "><p></p></div>
             <div class="footer">
                 <div className="footer-container">
-                    <div className="footer-item">
-                        <b>Salida a Dolores Hidalgo Km 1, San Miguel de Allende, Gto.</b>
+                    <br/>
+                    <div >
+                        <b>Carr San Miguel de Allede a Dolores Hidalgo km 1.16, Gto.</b>
                     </div>
-                    <div className="footer-item">
-                        <b>Tel. 415 196 8913  Email: lacabanasma@gmail.com</b>
+                    <div >
+                        <b>Tel. 415 152 0989  Cel. 415 122 1140  Email: fletesdeaguacerroblanco@gmail.com </b>
                     </div>
                     <div className="footer-item">
                         <p>.</p>

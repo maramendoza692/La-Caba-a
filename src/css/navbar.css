@@ -13,15 +13,9 @@
     padding: 2%;
     max-width: 980px;
     margin: 0 auto;
-    width: auto; 
+    width: auto;
     height: auto;
 }
-
-Link{
-    text-decoration: none;
-}
-
-/*Logo*/
 
 .logo {
     display: flex;
@@ -35,7 +29,8 @@ Link{
     left: 10%;
     top: 2%;
     position: fixed;
-    width: 8vw; /* 50% del ancho de la ventana */
+    width: 8vw;
+    /* 50% del ancho de la ventana */
     height: auto;
 }
 
@@ -58,125 +53,33 @@ Link{
     font-weight: 500;
     line-height: 50px;
     position: relative;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
-.menu a::after{
-    content: "";
-    background-color: var(--color1);
-    position: absolute;
-    left: 0;
-    top: calc(100% + 2px);
-    width: 100%;
-    height: 4px;
 
-    opacity: 0;
-}
 
-.menu a.selected::after {
-    opacity: 0.8;
-    
 
-}
-
-.menu a:hover{
+.menu a:hover {
     color: var(--color3);
 }
 
-.open-menu,
-.close-menu {
-    display: none;
-}
-
-@media (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .imgLogo {
-        left: 10%;
-        top: 2%;
-        position: fixed;
-        width: 0; 
-        height: 0;
-    }
-    .menu {
-        display: flex;
-        list-style: none;
-        margin: 0;
-        padding: 0;
+        display: none;
     }
 
     .menu li {
-        padding: 0 5px;
-    
-    }
-    
-    .link-item{
-        padding: 0 5px;
-        font-size: 10px;
-
-    }
-
-    
-
-}
-
-/* 
-@media (max-width: 950px) {
-
-    
-    .menu {
-        flex-direction: column;
-        position: fixed;
-        left: 0;
-        top: 0;
-        width: 100%;
-        align-items: center;
-        background-color: var(--menu-mobile-background-color);
-        height: 100%;
-        overflow-y: auto;
-
-        opacity: 0;
-        pointer-events: none;
-        transition: opacity 0.3s;
-    }
-
-    .menu li {
-        padding: 0;
-
+        padding: 0 10px;
     }
 
     .menu a {
-        color: var(--text-color-inverse);
-        font-size: 25px;
-        font-weight: 500;
-        line-height: 60px;
-
+        font-size: 16px;
+        line-height: 40px;
     }
 
-    .open-menu,
-    .close-menu {
-        display: block;
-        border: none;
-        background: none;
-        cursor: pointer;
-        
+    .topnav {
+        justify-content: center;
     }
-
-    .close-menu {
-        align-self: flex-end;
-        padding: 15px 15px;
-    }
-
-    .menu_opened {
-        opacity: 1;
-        pointer-events: all;
-    }
-
-    .menu a::after{
-        content: none;
-        
-    }
-    
-    .menu a:hover, menu a.selected{
-        color: var(--color4);
-    }
-
-} */
+}

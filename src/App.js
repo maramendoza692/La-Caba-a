@@ -10,51 +10,23 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Inicio from './Inicio';
 import Nosotros from './Nosotros';
 import Servicios from './Servicios';
-import Reseñas from './Reseñas';
-import Reseña from './Reseña';
 
 
 function App() {
-  const [menuOpened, setMenuOpened] = useState(false);
-
-  const toggleMenu = () => {
-    setMenuOpened(!menuOpened);
-  };
-
-  // const express = require('express');
-  // const app = express(); 
-  
-  // app.get('/sw.js', (req, res) => {
-  //   res.setHeader('Content-Type', 'application/javascript');
-  //   res.sendFile(__dirname + '/sw.js');
-  // });
-  
-    
-  // app.listen(3000, () => {
-  //   console.log('Servidor iniciado en el puerto 3000');
-  // });
   return (
     <Router>
       <div>
         <header className="topheader">
-          <nav className={`topnav ${menuOpened ? 'menu_opened' : ''}`}>
+          <nav className="topnav">
             <Link to="/" className="logo">
               <img className="imgLogo" src={imgLogo} alt="" />
             </Link>
 
-            <button className="open-menu" aria-label="Abrir menú" onClick={toggleMenu}>
-              <img className="menu" src={menu} alt="" />
-            </button>
-
             <ul className="menu">
-              <button className="close-menu" aria-label="Cerrar menú" onClick={toggleMenu}>
-                <img className="cerrar" src={cerrar} alt="" />
-              </button>
 
               <li><Link to="/" className="link-item">Inicio</Link></li>
               <li><Link to="/nosotros" className="link-item">Nosotros</Link></li>
               <li><Link to="/servicios" className="link-item">Servicios</Link></li>
-              <li><Link to="/reseñas" className="link-item">Reseñas</Link></li>
             </ul>
           </nav>
         </header>
@@ -63,13 +35,10 @@ function App() {
           <Route path="/" element={<Inicio />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/servicios" element={<Servicios />} />
-          <Route path="/reseñas" element={<Reseña />} />
         </Routes>
 
-        {/* <div className="footer">
-          <p>Contacto: tu@email.com</p>
-        </div> */}
       </div>
+      
     </Router>
   );
 }

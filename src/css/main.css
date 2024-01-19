@@ -20,23 +20,20 @@ body {
     padding-right: 80px;
 }
 
-a {
-    text-decoration: none;
-    color: var(--text-color)
-}
 
-.home{
+
+.home {
     width: 100%;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 
-.onda{
+.onda {
     min-height: 100vh;
     width: 100%;
     background: var(--colorFondo);
@@ -46,20 +43,21 @@ a {
     position: fixed;
 }
 
-.logo{
-    width: 30vw; /* 50% del ancho de la ventana */
+.logo {
+    width: 30vw;
+    /* 50% del ancho de la ventana */
     height: auto;
     margin-top: 5%;
     margin-left: 10%;
 }
 
-svg{
+svg {
     position: absolute;
     bottom: 0;
-    left:0
+    left: 0
 }
 
-.componentes{
+.componentes {
     min-height: 100vh;
     width: 100%;
     background: var(--color3);
@@ -68,23 +66,31 @@ svg{
     width: 100%;
     position: fixed;
     overflow-y: scroll;
-    height: 100vh;  
-  
-    
+    height: 100vh;
+
+
 }
-  
+
+.containerInicio {
+    max-height: 100vh;
+    overflow-y: scroll;
+
+}
+
 .card {
-    margin: 20px; 
-    top: 20px;  
-    
+    margin: 20px;
+    top: 20px;
+
 }
-.card-body{
+
+.card-body {
     background: var(--color4);
-    border-radius: 3px; 
+    border-radius: 3px;
 }
+
 .cardTemas {
     margin: 20px;
-    
+
 }
 
 .imgPipas {
@@ -122,31 +128,31 @@ svg{
 }
 
 b {
-    color:#deece2
+    color: #deece2
 }
 
 .button-container {
     text-align: right;
-  }
+}
 
 .button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  border: var(--colorFondo);
-  color: var(--color4); 
-  background-color: var(--colorFondo); 
-  border-radius: 5px; 
-  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-  
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: var(--colorFondo);
+    color: var(--color4);
+    background-color: var(--colorFondo);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
 }
 
 .button:hover {
-  background-color: var(--color3); 
+    background-color: var(--color3);
 }
 
 .resena-titulo {
@@ -154,5 +160,66 @@ b {
     color: var(--color3);
 }
 
+.footer-item {
+    color: var(--colorFondo);
+}
 
-  
+.computadora {
+    display: flex;
+}
+
+.celular {
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    .computadora {
+        display: none;
+    }
+
+    .celular {
+        display: block;
+        max-height: 100vh;
+        overflow-y: scroll;
+    }
+
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    .logo {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .iconosInicio {
+        width: 20%;
+        margin-left: 40%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .titulosInicio {
+        font-size: 100%;
+    }
+
+    .sloganInicio {
+        margin-left: 10%;
+        color: #333434;
+        font-style: italic;
+        font-size: 100%;
+    }
+
+    
+}

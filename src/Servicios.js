@@ -3,7 +3,7 @@ import servicios from './img/servicios.png';
 import pipa from './img/flete.png';
 import agua from './img/gota.png';
 import bano from './img/bano.png';
-import { FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa'; 
+import { FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
 
 export default function Servicios() {
     return (
@@ -23,10 +23,9 @@ export default function Servicios() {
                                     <p></p>
                                 </div>
                                 <div class="row ">
-                                    <p>¿Necesitas agua potable de calidad en cualquier lugar y momento? Ofrecemos servicios de fletes de agua potable rápidos y confiables. </p>
-                                    <li>Pipa de 10,000 l.</li>
-                                    <li>Pipa de 5,000 l.</li>
-                                    <li>Pipa de 1,000 l.</li>
+                                    <p>¿Necesitas agua potable de calidad en cualquier lugar y momento? Ofrecemos servicios de fletes de agua potable rápidos y confiables.</p>
+                                    <p>Contamos con pipas desde 3,500 L a 20,000 L</p>
+                                    
                                 </div>
 
 
@@ -37,7 +36,7 @@ export default function Servicios() {
                     <div class="col">
                         <div class="card cardTemas">
                             <div class="card-body">
-                            <div class="row ">
+                                <div class="row ">
                                     <div class="col-3"><img className="iconosServicios" src={pipa} alt="" /></div>
                                     <div class="col-9"><h2 class=" mision-title">Limpieza de fosas sépticas</h2></div>
                                 </div>
@@ -51,7 +50,7 @@ export default function Servicios() {
                     <div class="col">
                         <div class="card cardTemas">
                             <div class="card-body">
-                            <div class="row ">
+                                <div class="row ">
                                     <div class="col-3"><img className="iconosServicios" src={bano} alt="" /></div>
                                     <div class="col-9"><h2 class=" mision-title">Renta de baños portátiles</h2></div>
                                 </div>
@@ -65,17 +64,27 @@ export default function Servicios() {
                         </div>
                     </div>
                 </div>
-                
+                <div class="row ">
+                <div class="col">
+                        <div class="card cardTemas">
+                            <div class="card-body">
+                                <h4 style={{ textAlign: 'center' }} class="mision-title">Pregunta por nuestros precios, ¡Contáctanos!</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div class="row "><p></p></div>
             <div class="row "><p></p></div>
             <div class="footer">
                 <div className="footer-container">
-                    <div className="footer-item">
-                        <b>Salida a Dolores Hidalgo Km 1, San Miguel de Allende, Gto.</b>
+                    <br />
+                    <div >
+                        <b>Carr San Miguel de Allede a Dolores Hidalgo km 1.16, Gto.</b>
                     </div>
-                    <div className="footer-item">
-                        <b>Tel. 415 196 8913  Email: lacabanasma@gmail.com</b>
+                    <div >
+                        <b>Tel. 415 152 0989  Cel. 415 122 1140  Email: fletesdeaguacerroblanco@gmail.com </b>
                     </div>
                     <div className="footer-item">
                         <p>.</p>
