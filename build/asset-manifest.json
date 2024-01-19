@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.16ce6a78.css",
-    "main.js": "/static/js/main.521970c0.js",
+    "main.css": "/static/css/main.30630781.css",
+    "main.js": "/static/js/main.40cc7860.js",
     "static/js/787.5e632d68.chunk.js": "/static/js/787.5e632d68.chunk.js",
     "static/media/nosotros.png": "/static/media/nosotros.68d5d2f7aa6b931ae147.png",
-    "static/media/resenas.png": "/static/media/resenas.3ad5e48a70c413ada01e.png",
     "static/media/servicios.png": "/static/media/servicios.b03a1148340a17605df1.png",
     "static/media/La Cabaña logo completo.png": "/static/media/La Cabaña logo completo.aef9a1eb908307e24bc4.png",
     "static/media/La Cabaña.png": "/static/media/La Cabaña.aef9a1eb908307e24bc4.png",
@@ -13,12 +12,12 @@
     "static/media/flete.png": "/static/media/flete.6c8d024f57d7c14bb49c.png",
     "static/media/gota.png": "/static/media/gota.d4393c8ccb9e0c5a2c26.png",
     "index.html": "/index.html",
-    "main.16ce6a78.css.map": "/static/css/main.16ce6a78.css.map",
-    "main.521970c0.js.map": "/static/js/main.521970c0.js.map",
+    "main.30630781.css.map": "/static/css/main.30630781.css.map",
+    "main.40cc7860.js.map": "/static/js/main.40cc7860.js.map",
     "787.5e632d68.chunk.js.map": "/static/js/787.5e632d68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16ce6a78.css",
-    "static/js/main.521970c0.js"
+    "static/css/main.30630781.css",
+    "static/js/main.40cc7860.js"
   ]
 }
