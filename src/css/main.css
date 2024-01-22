@@ -58,7 +58,7 @@ svg {
 }
 
 .componentes {
-    min-height: 100vh;
+    min-height: 100%;
     width: 100%;
     background: var(--color3);
     left: 0;
@@ -172,7 +172,7 @@ b {
     display: none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
     .computadora {
         display: none;
     }
@@ -214,11 +214,22 @@ b {
         font-size: 100%;
     }
 
+    .tituloEmail {
+        font-size: 50%;
+    }
     .sloganInicio {
         margin-left: 10%;
         color: #333434;
         font-style: italic;
         font-size: 100%;
+    }
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: var(--theme-color);
+        color: var(--text-color);
+        padding-top: 55px;
+        padding-left: 80px;
+        padding-right: 80px;
     }
 
     

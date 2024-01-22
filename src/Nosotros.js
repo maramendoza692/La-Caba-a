@@ -56,26 +56,22 @@ export default function Nosotros() {
                     </div>
                 </div>
             </div>
-            <div class="row "><p></p></div>
-            <div class="row "><p></p></div>
+            <br></br>
+            <br></br>
             <div class="footer">
                 <div className="footer-container">
                     <br/>
                     <div >
-                        <b>Carr San Miguel de Allede a Dolores Hidalgo km 1.16, Gto.</b>
+                        <b>Carr San Miguel de Allende a Dolores Hidalgo km 1.16, Gto.</b>
                     </div>
                     <div >
                         <b>Tel. 415 152 0989  Cel. 415 122 1140  Email: fletesdeaguacerroblanco@gmail.com </b>
                     </div>
-                    <div className="footer-item">
-                        <p>.</p>
-                    </div>
-                    <div className="footer-item">
-                        <p>.</p>
-                    </div>
-                    <div className="footer-item">
-                        <p>.</p>
-                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                 </div>
             </div>
         </div>
