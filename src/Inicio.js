@@ -74,7 +74,7 @@ export default function Inicio() {
             </div>
             <br></br>
             <div class="row">
-              <div class="col-12"><h5 class="titulosInicio">Carr San Miguel de Allede a Dolores Hidalgo km 1.16, Gto.</h5></div>
+              <div class="col-12"><h5 class="titulosInicio">Carr San Miguel de Allende a Dolores Hidalgo km 1.16, Gto.</h5></div>
             </div>
             <div class="row ">
               <div class="col-12"><h5 class="titulosInicio">Tel. 415 152 0989  Cel. 415 122 1140</h5></div>
