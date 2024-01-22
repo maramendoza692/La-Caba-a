@@ -17,7 +17,7 @@ export default function Inicio() {
             <img className="logo" src={logo} alt="" />
             <br></br>
             <h3 className='sloganInicio'>Calidad y servicio es nuestra prioridad.</h3>
-          </div> 
+          </div>
           <div class="col-6" >
             <br></br>
             <br></br>
@@ -37,7 +37,7 @@ export default function Inicio() {
             </div>
             <br></br>
             <div class="row">
-              <div class="col-9"><h5 class="titulosInicio">Carr San Miguel de Allede a Dolores Hidalgo km 1.16, Gto.</h5></div>
+              <div class="col-9"><h5 class="titulosInicio">Carr San Miguel de Allende a Dolores Hidalgo km 1.16, Gto.</h5></div>
             </div>
             <div class="row ">
               <div class="col-9"><h5 class="titulosInicio">Tel. 415 152 0989  Cel. 415 122 1140</h5></div>
@@ -54,7 +54,7 @@ export default function Inicio() {
             <img className="logo" src={logo} alt="" />
             <br></br>
             <h3 className='sloganInicio'>Calidad y servicio es nuestra prioridad.</h3>
-          </div> 
+          </div>
           <div class="col-12" >
             <br></br>
             <br></br>
@@ -82,7 +82,11 @@ export default function Inicio() {
             <div class="row ">
               <div class="col-12"><h5 class="titulosInicio">fletesdeaguacerroblanco@gmail.com </h5></div>
             </div>
-            <br/><br/><br/><br/>
+            <br /><br />
+            <br /><br />
+            <br></br>
+            <br></br>
+            <br></br>
 
           </div>
         </div>
@@ -95,7 +99,7 @@ export default function Inicio() {
       </div>
 
 
-   
+
     </div>
   );
 }

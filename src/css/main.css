@@ -107,9 +107,6 @@ svg {
     border-radius: 6px;
 }
 
-.nomostar {
-    color: white;
-}
 
 .footer {
     background-color: var(--colorFondo);
@@ -230,6 +227,20 @@ b {
         padding-top: 55px;
         padding-left: 80px;
         padding-right: 80px;
+    }
+
+    .sloganInicio {
+        text-align: center;
+        color: #333434;
+        font-style: italic;
+    }
+
+    .footer {
+        b {
+            font-size: 70%;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
     }
 
     
