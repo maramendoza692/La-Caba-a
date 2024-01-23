@@ -4,11 +4,11 @@ export default function Nosotros() {
     return (
         <div class="componentes">
             <img className="imgPipas" src={nosotros} alt="" />
-            <div class="nsotros2">
-                <div class="card">
+            <div >
+                <div class="card cardTemas">
                     <div class="card-body">
-                        <h2 class=" nosotros-title">Nosotros</h2>
-                        <p class="nosotros-text">Somos una empresa San Miguelense dedicada al cuidado del medio ambiente,
+                        <h2 >Nosotros</h2>
+                        <p >Somos una empresa San Miguelense dedicada al cuidado del medio ambiente,
                             que le
                             brinda un servicio de calidad y eficiencia en la limpieza de su fosa, cisterna o cárcamo. Así
                             mismo se
@@ -22,8 +22,8 @@ export default function Nosotros() {
 
                         <div class="card cardTemas">
                             <div class="card-body">
-                                <h2 class=" mision-title">Misión</h2>
-                                <p class="mision-text">Mantener la calidad y excelente servicio en el transporte de agua
+                                <h2 >Misión</h2>
+                                <p >Mantener la calidad y excelente servicio en el transporte de agua
                                     potable
                                     y limpieza
                                     de fosa séptica.</p>
@@ -33,8 +33,8 @@ export default function Nosotros() {
                     <div class="col">
                         <div class="card cardTemas">
                             <div class="card-body">
-                                <h2 class=" vision-title">Visión</h2>
-                                <p class="vision-text">Ser la empresa líder en la zona para servicio de agua potable y para
+                                <h2 >Visión</h2>
+                                <p >Ser la empresa líder en la zona para servicio de agua potable y para
                                     el
                                     desazolve de
                                     fosas.</p>
@@ -45,7 +45,7 @@ export default function Nosotros() {
                         <div class="card cardTemas">
                             <div class="card-body">
                                 <div class="row">
-                                    <h2 class=" vision-title">Valores</h2>
+                                    <h2 >Valores</h2>
                                     <li>Honestidad, a la hora de cotizar y realizar el servicio.</li>
                                     <li>Respeto, por el cuidado y buen uso de los recursos naturales y medio ambiente.</li>
                                     <li>Compromiso, estar en tiempo y forma con el servicio del cliente.</li>

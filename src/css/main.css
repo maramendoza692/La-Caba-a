@@ -67,6 +67,7 @@ svg {
     position: fixed;
     overflow-y: scroll;
     height: 100vh;
+    text-align: center;
 
 
 }
@@ -207,6 +208,14 @@ b {
         justify-content: center;
     }
 
+    .iconosServicios {
+        width: 20%;
+        margin-left: 40%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
     .titulosInicio {
         font-size: 100%;
     }
@@ -242,6 +251,8 @@ b {
         }
         
     }
+
+
 
     
 }
